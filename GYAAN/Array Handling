@@ -1,0 +1,18 @@
+// ✅ Create a list to store both element value and its original index
+List<int[]> paired = new ArrayList<>();
+
+for (int i = 0; i < arr.size(); i++) {
+    // Each entry stores: [value, index]
+    paired.add(new int[] { arr.get(i), i });
+}
+
+/*
+🔁 Purpose:
+We’re pairing each element with its index because we want 
+a two-way relationship — we can access:
+   ➤ value using index
+   ➤ index using value
+Unlike a normal Map, which is one-directional (key → value only),
+this structure allows sorting or processing while keeping track
+of original positions, like in Tree or sorting problems.
+*/
