@@ -10,7 +10,7 @@ This repository contains all my **Data Structures & Algorithms** solutions and n
 |--------|--------------|
 | **Trees/** | Problems and notes related to Trees |
 | **GYAAN/** | My personal learnings, key takeaways, logic explanations |
-| **Graphs/** | (To be added) Graph problems and notes |
+| **Graphs/** |  Graph problems and notes |
 | **DynamicProgramming/** | (To be added) DP problems |
 | **Others/** | Miscellaneous DSA topics |
 
