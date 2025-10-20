@@ -1,0 +1,17 @@
+https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/description/?envType=daily-question&envId=2025-10-19
+
+If problem asks about :
+Asks about number or word
+Each digit or character can be changed in same way
+You have to reach a target word/number
+In minimum steps/moves/operations
+find the max/min of those states
+often leads to finite number of states/nodes
+** it is graph traversal problem ** for traveral we can use BFS/DFS 
+as BFS helps in shortest path so if asked reach target in min numbers we will do /*BFS*/
+but sometimes BFS DFS both can work in problem
+Example of such problems:
+Min Genetic Mutation
+Open the Lock
+Word Ladder 1 and 2
+Sliding Puzzle
