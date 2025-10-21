@@ -1,0 +1,6 @@
+When we pass a primitive (like int, boolean, etc.) in a function or recursion, Java passes it by value, meaning it passes a copy of the variable.
+So any changes inside the function affect only the copy, not the original variable.
+To make updates visible across recursive calls, we use a mutable object, like an int[] or an AtomicInteger, because Java passes object references by value.
+//
+AtomicInteger cnt = new AtomicInteger(0); // starts with value 0
+cnt.get();cnt.set(5);cnt.getAndIncrement();
