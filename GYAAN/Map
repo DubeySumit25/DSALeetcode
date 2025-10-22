@@ -1,0 +1,4 @@
+//to iterate on Map
+for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
+            int num = entry.getKey();
+            int count = entry.getValue();} 
