@@ -1,0 +1,2 @@
+Many problems don’t mention trees, but if the data has nodes + children/branches, you should think in terms of tree/graph traversal.
+in this q: https://leetcode.com/problems/employee-importance/description/?envType=problem-list-v2&envId=tree
