@@ -1,0 +1,1 @@
+for (char c : String.valueOf(cnt).toCharArray()) // make cnt string then make it char array to iterate
