@@ -1,1 +1,5 @@
 for (char c : String.valueOf(cnt).toCharArray()) // make cnt string then make it char array to iterate
+
+
+// if 2 string has samefreq of characters and and all same characters then by swapping charcters we cna achieve one another as its all about permutation..
+https://leetcode.com/problems/determine-if-two-strings-are-close/description/
