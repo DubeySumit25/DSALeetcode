@@ -2,3 +2,19 @@
 for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
             int num = entry.getKey();
             int count = entry.getValue();} 
+//
+
+        // Convert map entries into a list
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(freq.entrySet());
+
+        // Sort the list:
+        // 1. By frequency descending
+        // 2. By value descending (when frequencies are equal)
+        Collections.sort(list, (a, b) -> {
+            if (!a.getValue().equals(b.getValue()))
+                return b.getValue() - a.getValue(); // Higher frequency first
+            return b.getKey() - a.getKey();         // Higher value first if frequency same
+        });
+//RETURN
+a - b	ascending
+b - a	descending
