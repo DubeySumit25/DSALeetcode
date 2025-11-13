@@ -16,3 +16,6 @@ Unlike a normal Map, which is one-directional (key → value only),
 this structure allows sorting or processing while keeping track
 of original positions, like in Tree or sorting problems.
 */
+//LIST OF LIST INETEGRS BANANA
+for(int i=;i<n;i++){
+list.add(newArrayList<>());}
