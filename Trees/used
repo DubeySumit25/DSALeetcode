@@ -1,2 +1,17 @@
 Many problems don’t mention trees, but if the data has nodes + children/branches, you should think in terms of tree/graph traversal.
 in this q: https://leetcode.com/problems/employee-importance/description/?envType=problem-list-v2&envId=tree
+
+
+//CREATE TREE FROM PARENT ARRAY
+
+        TreeNode[] nodes = new TreeNode[n];
+        for (int i = 0; i < n; i++)
+            nodes[i] = new TreeNode(i); //first create node 
+
+        for (int i = 1; i < n; i++) {
+            int p = parents[i];
+            if (nodes[p].left == null)
+                nodes[p].left = nodes[i];
+            else
+                nodes[p].right = nodes[i];
+        }
