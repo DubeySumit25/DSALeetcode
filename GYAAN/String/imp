@@ -11,3 +11,6 @@ https://leetcode.com/problems/determine-if-two-strings-are-close/description/
 //
 if (sub.compareTo(best) < 0) best = sub;
 it means if sub (our current substring) is lexicogrsphically smaller than best then replace it with sub.. if returns >0 means current string is lexicrographically greter 
+//////////////
+Number of Substrings With Only 1s 
+//https://leetcode.com/problems/number-of-substrings-with-only-1s/description/?envType=daily-question&envId=2025-11-16
