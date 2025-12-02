@@ -15,3 +15,6 @@ in this q: https://leetcode.com/problems/employee-importance/description/?envTyp
             else
                 nodes[p].right = nodes[i];
         }
+//STRUTURE OF TREE Q
+https://leetcode.com/problems/find-duplicate-subtrees/description/
+use N,N for null things
