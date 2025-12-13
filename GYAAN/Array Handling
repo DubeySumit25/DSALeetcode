@@ -19,3 +19,8 @@ of original positions, like in Tree or sorting problems.
 //LIST OF LIST INETEGRS BANANA
 for(int i=;i<n;i++){
 list.add(newArrayList<>());}
+
+
+//Compartor
+https://leetcode.com/problems/coupon-code-validator/description/?envType=daily-question&envId=2025-12-13
+knowledge of comparator and lambda function
