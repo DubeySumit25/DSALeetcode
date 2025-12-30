@@ -24,3 +24,6 @@ list.add(newArrayList<>());}
 //Compartor
 https://leetcode.com/problems/coupon-code-validator/description/?envType=daily-question&envId=2025-12-13
 knowledge of comparator and lambda function
+
+//prefix matrix and sum +binary search also as montonic
+https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/description/
