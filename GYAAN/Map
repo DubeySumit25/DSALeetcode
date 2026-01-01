@@ -17,4 +17,6 @@ for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
         });
 //RETURN
 a - b	ascending
-b - a	descending
+b - a	descending/
+//MAP 
+https://leetcode.com/problems/rank-teams-by-votes/description/
